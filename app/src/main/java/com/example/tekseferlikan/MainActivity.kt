@@ -1,143 +1,109 @@
 package com.example.tekseferlikan // KENDİ PAKET İSMİNİ KONTROL ET!
 
-import android.Manifest
-import android.content.ContentValues
-import android.content.pm.PackageManager
-import android.net.Uri
-import android.os.Build
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
-import android.provider.MediaStore
+import android.view.View
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
-import androidx.lifecycle.lifecycleScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 
 class MainActivity : AppCompatActivity() {
 
-    private val flagFilename = "tek_seferlik_flag.txt"
-    private val permissionRequestCode = 101
+    // SharedPreferences için sabitler.
+    private val PREFS_NAME = "TekSeferlikAnPrefs"
+    private val PREF_KEY_RUN_BEFORE = "runBefore"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        handlePermissionsAndProceed()
+        executeAppLogic()
     }
 
-    private fun handlePermissionsAndProceed() {
-        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.P && ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE), permissionRequestCode)
-        } else {
-            executeAppLogic()
+    /**
+     * Uygulamanın daha önce çalışıp çalışmadığını SharedPreferences'tan kontrol eder.
+     */
+    private fun isRunBefore(): Boolean {
+        val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        return prefs.getBoolean(PREF_KEY_RUN_BEFORE, false)
+    }
+
+    /**
+     * Uygulamanın çalıştığına dair işareti SharedPreferences'e kaydeder.
+     */
+    private fun setRunFlag() {
+        val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        with(prefs.edit()) {
+            putBoolean(PREF_KEY_RUN_BEFORE, true)
+            apply() // Kaydet
         }
     }
 
+    /**
+     * Ana uygulama mantığı.
+     */
     private fun executeAppLogic() {
-        lifecycleScope.launch(Dispatchers.IO) {
-            val flagExists = isFlagFileExists()
-            withContext(Dispatchers.Main) {
-                if (flagExists) {
-                    Toast.makeText(this@MainActivity, getString(R.string.toast_already_lived), Toast.LENGTH_LONG).show()
-                    finish()
-                } else {
-                    showFirstTimeUI()
-                }
-            }
+        // Uygulama daha önce çalıştıysa...
+        if (isRunBefore()) {
+            Toast.makeText(this, getString(R.string.toast_already_lived), Toast.LENGTH_LONG).show()
+            finish() // Aktiviteyi hemen kapat.
+        } else {
+            // İlk defa çalışıyorsa arayüzü göster.
+            showFirstTimeUI()
         }
     }
 
+    /**
+     * İlk açılış arayüzünü ve gizli "Hakkında" sayfası tetikleyicisini ayarlar.
+     */
     private fun showFirstTimeUI() {
         setContentView(R.layout.activity_main)
         val farewellButton: Button = findViewById(R.id.farewellButton)
+        val mainLayout: View = findViewById(R.id.main)
+        val titleTextView: TextView = findViewById(R.id.titleTextView)
+
+        // Gizli aktivite için tıklama sayacı
+        var titleClickCount = 0
+        var lastClickTime: Long = 0
+
+        titleTextView.setOnClickListener {
+            val currentTime = System.currentTimeMillis()
+            // Tıklamalar arası 2 saniyeden fazla ise sayacı sıfırla
+            if (currentTime - lastClickTime > 2000) {
+                titleClickCount = 0
+            }
+
+            titleClickCount++
+            lastClickTime = currentTime
+
+            // 7 kez tıklandıysa Hakkında sayfasını aç
+            if (titleClickCount == 3) {
+                titleClickCount = 0 // Sayacı tekrar sıfırla
+                val intent = Intent(this, AboutActivity::class.java)
+                startActivity(intent)
+            }
+        }
 
         farewellButton.setOnClickListener {
-            lifecycleScope.launch(Dispatchers.IO) {
-                val (success, errorMessage) = createFlagFile()
-                withContext(Dispatchers.Main) {
-                    if (success) {
-                        Toast.makeText(this@MainActivity, getString(R.string.toast_mark_left), Toast.LENGTH_SHORT).show()
-                    } else {
-                        val errorText = getString(R.string.toast_error_prefix) + " " + errorMessage
-                        Toast.makeText(this@MainActivity, errorText, Toast.LENGTH_LONG).show()
-                    }
+            // 1. Çalıştığına dair işareti bırak.
+            setRunFlag()
+
+            // 2. Animasyonu başlat.
+            val fadeOutAnimation =
+                AnimationUtils.loadAnimation(this@MainActivity, R.anim.fade_out)
+            fadeOutAnimation.setAnimationListener(object : Animation.AnimationListener {
+                override fun onAnimationStart(animation: Animation?) {}
+
+                override fun onAnimationEnd(animation: Animation?) {
+                    // 3. Animasyon bitince aktiviteyi kapat.
                     finish()
                 }
-            }
-        }
-    }
 
-    private fun isFlagFileExists(): Boolean {
-        // Bu fonksiyon doğru ve stabil, dokunmuyoruz.
-        val collection = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-            MediaStore.Files.getContentUri(MediaStore.VOLUME_EXTERNAL)
-        } else {
-            MediaStore.Files.getContentUri("external")
-        }
-
-        val projection = arrayOf(MediaStore.Files.FileColumns._ID)
-        val selection = "${MediaStore.Files.FileColumns.DISPLAY_NAME} = ?"
-        val selectionArgs = arrayOf(flagFilename)
-
-        contentResolver.query(collection, projection, selection, selectionArgs, null)?.use { cursor ->
-            return cursor.count > 0
-        }
-        return false
-    }
-
-    // EN DOĞRU YÖNTEME GERİ DÖNÜYORUZ
-    private fun createFlagFile(): Pair<Boolean, String?> {
-        val collection = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-            // build.gradle düzeldiği için burası artık çalışmalı!
-            MediaStore.Documents.getContentUri(MediaStore.VOLUME_EXTERNAL_PRIMARY)
-        } else {
-            MediaStore.Files.getContentUri("external")
-        }
-
-        val values = ContentValues().apply {
-            put(MediaStore.Files.FileColumns.DISPLAY_NAME, flagFilename)
-            put(MediaStore.Files.FileColumns.MIME_TYPE, "text/plain")
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-                put(MediaStore.Files.FileColumns.IS_PENDING, 1)
-            }
-        }
-
-        val uri: Uri?
-        try {
-            uri = contentResolver.insert(collection, values)
-        } catch (e: Exception) {
-            e.printStackTrace()
-            return Pair(false, e.localizedMessage ?: getString(R.string.toast_error_generic))
-        }
-
-        if (uri == null) {
-            return Pair(false, getString(R.string.toast_error_uri_null))
-        }
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-            values.clear()
-            values.put(MediaStore.Files.FileColumns.IS_PENDING, 0)
-            try {
-                contentResolver.update(uri, values, null, null)
-            } catch (e: Exception) {
-                e.printStackTrace()
-                return Pair(false, e.localizedMessage ?: getString(R.string.toast_error_generic))
-            }
-        }
-        return Pair(true, null)
-    }
-
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        if (requestCode == permissionRequestCode) {
-            if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                executeAppLogic()
-            } else {
-                Toast.makeText(this, getString(R.string.toast_permission_needed), Toast.LENGTH_LONG).show()
-                finish()
-            }
+                override fun onAnimationRepeat(animation: Animation?) {}
+            })
+            mainLayout.startAnimation(fadeOutAnimation)
         }
     }
 }
