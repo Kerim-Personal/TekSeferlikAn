@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tek Seferlik An</string>
+
+    <string name="main_title">Sadece Bir An</string>
+    <string name="main_message">Bu an sadece sana özel ve bir daha asla tekrarlanmayacak. Her saniyenin kıymetini bilmek için küçük bir hatırlatma.</string>
+    <string name="farewell_button_text">Hoşça Kal</string>
+
+    <string name="toast_already_lived">Bu anı daha önce yaşamadın mı? 😉</string>
+    <string name="toast_permission_needed">Bu deneyim için depolama izni gerekli.</string>
+    <string name="toast_mark_left">İşaret bırakıldı. Hoşça kal!</string>
+    <string name="toast_error_prefix">Hata:</string>
+    <string name="toast_error_generic">Bir hata oluştu.</string>
+    <string name="toast_error_uri_null">ContentResolver null URI döndürdü.</string>
+
+</resources>
