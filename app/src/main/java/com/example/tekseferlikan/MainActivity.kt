@@ -22,6 +22,12 @@ class MainActivity : AppCompatActivity() {
         executeAppLogic()
     }
 
+    override fun onStop() { // Yeni eklenen metod
+        super.onStop()
+        // Uygulama kapatıldığında veya arka plana alındığında işareti bırak
+        setRunFlag()
+    }
+
     /**
      * Uygulamanın daha önce çalışıp çalışmadığını SharedPreferences'tan kontrol eder.
      */
@@ -63,6 +69,7 @@ class MainActivity : AppCompatActivity() {
         val farewellButton: Button = findViewById(R.id.farewellButton)
         val mainLayout: View = findViewById(R.id.main)
         val titleTextView: TextView = findViewById(R.id.titleTextView)
+        val aboutButton: Button = findViewById(R.id.aboutButton) // Hakkında butonu referansı
 
         // Gizli aktivite için tıklama sayacı
         var titleClickCount = 0
@@ -86,9 +93,16 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        // Hakkında butonu için tıklama dinleyicisi
+        aboutButton.setOnClickListener {
+            val intent = Intent(this, AboutActivity::class.java)
+            startActivity(intent)
+        }
+
         farewellButton.setOnClickListener {
             // 1. Çalıştığına dair işareti bırak.
-            setRunFlag()
+            // Bu çağrı artık onStop() içinde de yapılacağı için buradaki çağrı teknik olarak zorunlu değil ama bırakılabilir.
+            // setRunFlag()
 
             // 2. Animasyonu başlat.
             val fadeOutAnimation =
