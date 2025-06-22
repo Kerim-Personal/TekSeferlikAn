@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Nur ein Moment</string>
+    <string name="main_title">Nur ein Moment</string>
+    <string name="main_message">Dieser Moment ist besonders, nur für dich, und wird sich nie wiederholen. Eine kleine Erinnerung, um jede Sekunde zu schätzen.</string>
+    <string name="farewell_button_text">Lebewohl</string>
+    <string name="about_button_text">Über</string>
+    <string name="about_title">Über Nur ein Moment</string>
+    <string name="about_description">Diese Anwendung ist eine einfache Idee, die dich daran erinnern soll, wie kostbar jeder Moment des Lebens ist. Wenn dir dieses kleine Experiment gefallen hat und du dem Entwickler einen Kaffee spendieren möchtest, kannst du den Button unten verwenden.</string>
+    <string name="donate_button_text">Spendier mir einen Kaffee ☕</string>
+    <string name="back_button_text">Zurück</string>
+    <string name="toast_already_lived">Hast du diesen Moment nicht schon einmal erlebt? 😉</string>
+    <string name="toast_permission_needed">Für dieses Erlebnis ist eine Speicherberechtigung erforderlich.</string>
+    <string name="toast_mark_left">Markierung hinterlassen. Lebewohl!</string>
+    <string name="toast_error_prefix">Fehler:</string>
+    <string name="toast_error_generic">Ein Fehler ist aufgetreten.</string>
+    <string name="toast_error_uri_null">ContentResolver hat eine null-URI zurückgegeben.</string>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ほんのひととき</string>
+    <string name="main_title">ほんのひととき</string>
+    <string name="main_message">この瞬間はあなただけの特別なもので、二度と繰り返されることはありません。一秒一秒を大切にするための、ささやかなリマインダーです。</string>
+    <string name="farewell_button_text">さようなら</string>
+    <string name="about_button_text">概要</string>
+    <string name="about_title">「ほんのひととき」について</string>
+    <string name="about_description">このアプリケーションは、人生のあらゆる瞬間がいかに貴重であるかを思い出させるために作られたシンプルなアイデアです。この小さな実験を気に入って、開発者にコーヒーを一杯おごりたいと思っていただけたなら、下のボタンをご利用ください。</string>
+    <string name="donate_button_text">コーヒーを一杯おごる ☕</string>
+    <string name="back_button_text">戻る</string>
+    <string name="toast_already_lived">この瞬間を以前に経験しませんでしたか？ 😉</string>
+    <string name="toast_permission_needed">この体験にはストレージの許可が必要です。</string>
+    <string name="toast_mark_left">マークを残しました。さようなら！</string>
+    <string name="toast_error_prefix">エラー：</string>
+    <string name="toast_error_generic">エラーが発生しました。</string>
+    <string name="toast_error_uri_null">ContentResolverがnullのURIを返しました。</string>
+</resources>

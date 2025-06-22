@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Solo un Momento</string>
+    <string name="main_title">Solo un Momento</string>
+    <string name="main_message">Este momento es especial, solo para ti, y nunca se repetirá. Un pequeño recordatorio para apreciar cada segundo.</string>
+    <string name="farewell_button_text">Adiós</string>
+    <string name="about_button_text">Acerca de</string>
+    <string name="about_title">Acerca de Solo un Momento</string>
+    <string name="about_description">Esta aplicación es una idea simple creada para recordarte lo valioso que es cada momento de la vida. Si disfrutaste este pequeño experimento y te gustaría invitarle un café al desarrollador, puedes usar el botón de abajo.</string>
+    <string name="donate_button_text">Invítame a un café ☕</string>
+    <string name="back_button_text">Volver</string>
+    <string name="toast_already_lived">¿No has vivido ya este momento? 😉</string>
+    <string name="toast_permission_needed">Se requiere permiso de almacenamiento para esta experiencia.</string>
+    <string name="toast_mark_left">Marca dejada. ¡Adiós!</string>
+    <string name="toast_error_prefix">Error:</string>
+    <string name="toast_error_generic">Ocurrió un error.</string>
+    <string name="toast_error_uri_null">ContentResolver devolvió un URI nulo.</string>
+</resources>

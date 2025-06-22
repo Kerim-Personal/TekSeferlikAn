@@ -1,15 +1,20 @@
 <resources>
-    <string name="app_name">Tek Seferlik An</string>
+<string name="app_name">Just A Moment</string>
 
-    <string name="main_title">Sadece Bir An</string>
-    <string name="main_message">Bu an sadece sana özel ve bir daha asla tekrarlanmayacak. Her saniyenin kıymetini bilmek için küçük bir hatırlatma.</string>
-    <string name="farewell_button_text">Hoşça Kal</string>
+<string name="main_title">Just A Moment</string>
+<string name="main_message">This moment is special just for you and will never be repeated. A small reminder to appreciate every second.</string>
+<string name="farewell_button_text">Farewell</string>
+<string name="about_button_text">About</string>
 
-    <string name="toast_already_lived">Bu anı daha önce yaşamadın mı? 😉</string>
-    <string name="toast_permission_needed">Bu deneyim için depolama izni gerekli.</string>
-    <string name="toast_mark_left">İşaret bırakıldı. Hoşça kal!</string>
-    <string name="toast_error_prefix">Hata:</string>
-    <string name="toast_error_generic">Bir hata oluştu.</string>
-    <string name="toast_error_uri_null">ContentResolver null URI döndürdü.</string>
+<string name="about_title">About Just A Moment</string>
+<string name="about_description">This application is a simple idea created to remind you how precious every moment of life is. If you enjoyed this little experiment and would like to buy the developer a coffee, you can use the button below.</string>
+<string name="donate_button_text">Buy me a coffee ☕</string>
+<string name="back_button_text">Back</string>
 
+<string name="toast_already_lived">Haven\'t you lived this moment before? 😉</string>
+<string name="toast_permission_needed">Storage permission is required for this experience.</string>
+<string name="toast_mark_left">Mark left. Farewell!</string>
+<string name="toast_error_prefix">Error:</string>
+<string name="toast_error_generic">An error occurred.</string>
+<string name="toast_error_uri_null">ContentResolver returned a null URI.</string>
 </resources>

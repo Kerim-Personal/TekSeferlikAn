@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Un Instant</string>
+    <string name="main_title">Un Instant</string>
+    <string name="main_message">Ce moment est spécial, juste pour vous, et ne se répétera jamais. Un petit rappel pour apprécier chaque seconde.</string>
+    <string name="farewell_button_text">Adieu</string>
+    <string name="about_button_text">À propos</string>
+    <string name="about_title">À propos d\'Un Instant</string>
+    <string name="about_description">Cette application est une idée simple créée pour vous rappeler à quel point chaque moment de la vie est précieux. Si vous avez apprécié cette petite expérience et souhaitez offrir un café au développeur, vous pouvez utiliser le bouton ci-dessous.</string>
+    <string name="donate_button_text">Offrez-moi un café ☕</string>
+    <string name="back_button_text">Retour</string>
+    <string name="toast_already_lived">N\'avez-vous pas déjà vécu ce moment ? 😉</string>
+    <string name="toast_permission_needed">L\'autorisation de stockage est requise pour cette expérience.</string>
+    <string name="toast_mark_left">Marque laissée. Adieu !</string>
+    <string name="toast_error_prefix">Erreur :</string>
+    <string name="toast_error_generic">Une erreur est survenue.</string>
+    <string name="toast_error_uri_null">ContentResolver a renvoyé un URI nul.</string>
+</resources>

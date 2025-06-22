@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sesaat Saja</string>
+    <string name="main_title">Sesaat Saja</string>
+    <string name="main_message">Momen ini istimewa, hanya untuk Anda, dan tidak akan pernah terulang. Sebuah pengingat kecil untuk menghargai setiap detik.</string>
+    <string name="farewell_button_text">Selamat Tinggal</string>
+    <string name="about_button_text">Tentang</string>
+    <string name="about_title">Tentang "Sesaat Saja"</string>
+    <string name="about_description">Aplikasi ini adalah ide sederhana yang dibuat untuk mengingatkan Anda betapa berharganya setiap momen dalam hidup. Jika Anda menikmati eksperimen kecil ini dan ingin membelikan secangkir kopi untuk pengembang, Anda dapat menggunakan tombol di bawah ini.</string>
+    <string name="donate_button_text">Belikan saya kopi ☕</string>
+    <string name="back_button_text">Kembali</string>
+    <string name="toast_already_lived">Bukankah Anda sudah pernah mengalami momen ini sebelumnya? 😉</string>
+    <string name="toast_permission_needed">Izin penyimpanan diperlukan untuk pengalaman ini.</string>
+    <string name="toast_mark_left">Tanda ditinggalkan. Selamat tinggal!</string>
+    <string name="toast_error_prefix">Kesalahan:</string>
+    <string name="toast_error_generic">Terjadi kesalahan.</string>
+    <string name="toast_error_uri_null">ContentResolver mengembalikan URI null.</string>
+</resources>

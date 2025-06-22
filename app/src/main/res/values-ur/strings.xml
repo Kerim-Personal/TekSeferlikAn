@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">صرف ایک لمحہ</string>
+    <string name="main_title">صرف ایک لمحہ</string>
+    <string name="main_message">یہ لمحہ خاص ہے، صرف آپ کے لیے، اور یہ کبھی دوبارہ نہیں آئے گا۔ ہر لمحے کی قدر کرنے کے لیے ایک چھوٹی سی یاد دہانی۔</string>
+    <string name="farewell_button_text">الوداع</string>
+    <string name="about_button_text">کے بارے میں</string>
+    <string name="about_title">\'صرف ایک لمحہ\' کے بارے میں</string>
+    <string name="about_description">یہ ایپلیکیشن ایک سادہ سا خیال ہے جو آپ کو یاد دلانے کے لیے بنایا گیا ہے کہ زندگی کا ہر لمحہ کتنا قیمتی ہے۔ اگر آپ نے اس چھوٹے سے تجربے سے لطف اٹھایا ہے اور آپ ڈویلپر کو کافی خریدنا چاہتے ہیں تو آپ نیچے دیا گیا بٹن استعمال کر سکتے ہیں۔</string>
+    <string name="donate_button_text">مجھے ایک کافی خریدیں ☕</string>
+    <string name="back_button_text">واپس</string>
+    <string name="toast_already_lived">کیا آپ نے یہ لمحہ پہلے نہیں جیا ہے؟ 😉</string>
+    <string name="toast_permission_needed">اس تجربے کے لیے اسٹوریج کی اجازت درکار ہے۔</string>
+    <string name="toast_mark_left">نشان چھوڑ دیا گیا۔ الوداع!</string>
+    <string name="toast_error_prefix">نقص:</string>
+    <string name="toast_error_generic">ایک نقص پیش آیا۔</string>
+    <string name="toast_error_uri_null">ContentResolver نے ایک null URI لوٹایا۔</string>
+</resources>
