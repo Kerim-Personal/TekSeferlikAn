@@ -2,7 +2,18 @@
     <string name="app_name">Tek Seferlik An</string>
 
     <string name="main_title">Sadece Bir An</string>
-    <string name="main_message">Bu an sadece sana özel ve bir daha asla tekrarlanmayacak. Her saniyenin kıymetini bilmek için küçük bir hatırlatma.</string>
+    <string name="main_message">
+    Gözlerini bir anlığına kapat.\n\n
+    Derin bir nefes al.\n\n
+    Ciğerlerine dolan havayı hisset…\n\n İşte bu, yaşamın ta kendisi. Ne geçmişin ağırlığı ne de geleceğin belirsizliği… Sadece şimdi var. Bu an, bir daha asla geri gelmeyecek eşsiz bir armağan.\n\n
+    Geçmiş artık sadece bir hatıra. Gelecekse henüz yazılmamış bir ihtimal. Sahip olduğun tek gerçeklik, tam şu an. Kalbinin atışını duyuyor musun? O ritim, senin var oluşunun sesi. Her vuruş, sana hayatın sunduğu sessiz bir teşekkür gibi.\n\n
+    Bir düşün… Şu an hissettiklerin, zihninden geçenler, etrafındaki sesler, kokular, ışıklar... Hepsi bir araya gelip bu anı senin için örüyor. Onu fark et. Onu yaşa. Onu onurlandır. Çünkü bu an, milyarlarca olasılığın içinden seçilip sadece sana “merhaba” dedi.\n\n
+    Kaygılarını bir kenara bırak. Geçmişin pişmanlıklarını serbest bırak. Sadece var ol. Varlığının mucizesini hisset. Tıpkı bir kar tanesi gibi bu an da kendine özgü, eşsiz ve geçici. Birazdan eriyecek ve bir daha asla aynı şekilde var olmayacak.\n\n
+    Hayat, büyük olaylardan ibaret değil. Hayat; bir fincan kahvenin sıcaklığında, bir dostun gülümsemesinde, bir melodinin kalbine dokunuşunda, rüzgarın yanağını okşayışında gizli. Anlam, işte o küçük detaylarda saklı.\n\n
+    Bu uygulama sessizce kapanırken seni bu eşsiz anla baş başa bırakacak.\n\n
+    Unutma… Bu anı fark etmek, hissetmek ve yaşamak, kendine verebileceğin en değerli hediye.\n\n
+    Farkına var ve bu anın kıymetini bil. Çünkü hayat, tam da burada… tam da şimdi başlıyor.
+    </string>
     <string name="farewell_button_text">Hoşça Kal</string>
     <string name="about_button_text">Hakkında</string>
 

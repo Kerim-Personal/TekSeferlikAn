@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">Chỉ một lát</string>
     <string name="main_title">Chỉ một lát</string>
-    <string name="main_message">Khoảnh khắc này thật đặc biệt, chỉ dành cho bạn và sẽ không bao giờ lặp lại. Một lời nhắc nhở nhỏ để trân trọng từng giây.</string>
+    <string name="main_message">
+Hãy nhắm mắt lại một lát.\n\n
+Hít một hơi thật sâu.\n\n
+Cảm nhận không khí lấp đầy lá phổi của bạn…\n\n
+Đây chính là sự sống. Không phải gánh nặng của quá khứ, cũng không phải sự không chắc chắn của tương lai… Chỉ có hiện tại. Khoảnh khắc này là một món quà độc nhất sẽ không bao giờ trở lại.\n\n
+Quá khứ bây giờ chỉ còn là một ký ức. Tương lai là một khả năng chưa được viết nên. Thực tại duy nhất bạn có là ngay bây giờ. Bạn có nghe thấy tim mình đập không? Nhịp điệu đó là âm thanh của sự tồn tại của bạn. Mỗi nhịp đập giống như một lời cảm ơn thầm lặng mà cuộc sống dành cho bạn.\n\n
+Hãy nghĩ về điều đó… Những cảm giác bạn đang có ngay bây giờ, những suy nghĩ lướt qua tâm trí bạn, những âm thanh, mùi hương, và ánh sáng xung quanh bạn... Tất cả chúng cùng nhau dệt nên khoảnh khắc này cho bạn. Hãy nhận thấy nó. Hãy sống với nó. Hãy trân trọng nó. Bởi vì khoảnh khắc này, được chọn từ hàng tỷ khả năng, đã chỉ nói "xin chào" với riêng bạn.\n\n
+Hãy gạt những lo lắng của bạn sang một bên. Hãy buông bỏ những hối tiếc của quá khứ. Chỉ cần tồn tại. Cảm nhận sự kỳ diệu của sự tồn tại của bạn. Giống như một bông tuyết, khoảnh khắc này cũng độc đáo, đặc biệt và thoáng qua. Nó sẽ sớm tan đi và sẽ không bao giờ tồn tại theo cùng một cách nữa.\n\n
+Cuộc sống không chỉ là về những sự kiện lớn lao. Cuộc sống ẩn chứa trong sự ấm áp của một tách cà phê, trong nụ cười của một người bạn, trong sự rung động của một giai điệu trong trái tim bạn, trong sự mơn trớn của ngọn gió trên má bạn. Ý nghĩa được giấu kín trong những chi tiết nhỏ bé đó.\n\n
+Khi ứng dụng này lặng lẽ đóng lại, nó sẽ để bạn một mình với khoảnh khắc độc đáo này.\n\n
+Hãy nhớ rằng… Nhận ra, cảm nhận và sống trong khoảnh khắc này là món quà quý giá nhất bạn có thể tự tặng cho mình.\n\n
+Hãy nhận ra và trân trọng khoảnh khắc này. Bởi vì cuộc sống bắt đầu ngay tại đây… ngay bây giờ.
+</string>
     <string name="farewell_button_text">Tạm biệt</string>
     <string name="about_button_text">Giới thiệu</string>
     <string name="about_title">Về \'Chỉ một lát\'</string>

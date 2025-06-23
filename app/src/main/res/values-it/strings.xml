@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">Solo un Momento</string>
     <string name="main_title">Solo un Momento</string>
-    <string name="main_message">Questo momento è speciale, solo per te, e non si ripeterà mai più. Un piccolo promemoria per apprezzare ogni secondo.</string>
+    <string name="main_message">
+Chiudi gli occhi per un momento.\n\n
+Fai un respiro profondo.\n\n
+Senti l\'aria che riempie i tuoi polmoni…\n\n
+Questa è la vita stessa. Non il peso del passato, né l\'incertezza del futuro… C\'è solo l\'adesso. Questo momento è un dono unico che non tornerà mai più.\n\n
+Il passato è ormai solo un ricordo. Il futuro è una possibilità non ancora scritta. L\'unica realtà che hai è proprio ora. Senti il tuo cuore battere? Quel ritmo è il suono della tua esistenza. Ogni battito è come un silenzioso ringraziamento che la vita ti offre.\n\n
+Pensaci… Le sensazioni che provi in questo momento, i pensieri che ti passano per la mente, i suoni, gli odori, le luci intorno a te... Tutti si uniscono per tessere questo momento per te. Accorgitene. Vivilo. Onoralo. Perché questo momento, scelto tra miliardi di possibilità, ha detto "ciao" solo a te.\n\n
+Metti da parte le tue preoccupazioni. Lascia andare i rimpianti del passato. Semplicemente, esisti. Senti il miracolo della tua esistenza. Proprio come un fiocco di neve, questo momento è unico, speciale e fugace. Presto si scioglierà e non esisterà mai più allo stesso modo.\n\n
+La vita non è fatta solo di grandi eventi. La vita è nascosta nel calore di una tazza di caffè, nel sorriso di un amico, nel tocco di una melodia sul tuo cuore, nella carezza del vento sulla tua guancia. Il significato è nascosto in quei piccoli dettagli.\n\n
+Mentre questa applicazione si chiude silenziosamente, ti lascerà solo con questo momento unico.\n\n
+Ricorda… Notare, sentire e vivere questo momento è il regalo più prezioso che puoi farti.\n\n
+Renditene conto e apprezza questo momento. Perché la vita inizia proprio qui… proprio adesso.
+</string>
     <string name="farewell_button_text">Addio</string>
     <string name="about_button_text">Informazioni</string>
     <string name="about_title">Informazioni su Solo un Momento</string>

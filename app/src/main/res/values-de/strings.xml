@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">Nur ein Moment</string>
     <string name="main_title">Nur ein Moment</string>
-    <string name="main_message">Dieser Moment ist besonders, nur für dich, und wird sich nie wiederholen. Eine kleine Erinnerung, um jede Sekunde zu schätzen.</string>
+    <string name="main_message">
+Schließe für einen Moment deine Augen.\n\n
+Atme tief ein.\n\n
+Spüre, wie die Luft deine Lungen füllt…\n\n
+Das ist das Leben selbst. Nicht die Last der Vergangenheit, nicht die Unsicherheit der Zukunft… Es gibt nur das Jetzt. Dieser Moment ist ein einzigartiges Geschenk, das niemals zurückkehren wird.\n\n
+Die Vergangenheit ist jetzt nur noch eine Erinnerung. Die Zukunft ist eine noch ungeschriebene Möglichkeit. Die einzige Realität, die du hast, ist genau jetzt. Hörst du dein Herz schlagen? Dieser Rhythmus ist der Klang deiner Existenz. Jeder Schlag ist wie ein stiller Dank, den das Leben dir schenkt.\n\n
+Denk darüber nach… Was du gerade fühlst, die Gedanken, die dir durch den Kopf gehen, die Geräusche, Gerüche, Lichter um dich herum... All das kommt zusammen, um diesen Moment für dich zu weben. Nimm ihn wahr. Lebe ihn. Ehre ihn. Denn dieser Moment, ausgewählt aus Milliarden von Möglichkeiten, hat nur zu dir „Hallo“ gesagt.\n\n
+Lass deine Sorgen beiseite. Lass die Reue der Vergangenheit los. Sei einfach. Spüre das Wunder deiner Existenz. Genau wie eine Schneeflocke ist dieser Moment einzigartig, besonders und vergänglich. Er wird bald schmelzen und nie wieder auf dieselbe Weise existieren.\n\n
+Das Leben besteht nicht nur aus großen Ereignissen. Das Leben verbirgt sich in der Wärme einer Tasse Kaffee, im Lächeln eines Freundes, in der Berührung einer Melodie auf deinem Herzen, im Streicheln des Windes auf deiner Wange. Die Bedeutung liegt in diesen kleinen Details verborgen.\n\n
+Während diese Anwendung leise schließt, wird sie dich mit diesem einzigartigen Moment allein lassen.\n\n
+Vergiss nicht… Diesen Moment zu bemerken, zu fühlen und zu leben, ist das wertvollste Geschenk, das du dir selbst machen kannst.\n\n
+Erkenne ihn und schätze diesen Moment. Denn das Leben beginnt genau hier… genau jetzt.
+</string>
     <string name="farewell_button_text">Lebewohl</string>
     <string name="about_button_text">Über</string>
     <string name="about_title">Über Nur ein Moment</string>
