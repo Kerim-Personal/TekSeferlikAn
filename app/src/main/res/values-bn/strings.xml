@@ -26,4 +26,8 @@
     <string name="toast_error_prefix">ত্রুটি:</string>
     <string name="toast_error_generic">একটি ত্রুটি ঘটেছে।</string>
     <string name="toast_error_uri_null">ContentResolver একটি নাল URI ফিরিয়েছে।</string>
+    <string name="farewell_dialog_title">বিদায় বলার আগে</string>
+    <string name="farewell_dialog_message">এটিই শেষ ধাপ। আপনি যখন \"বিদায়\" বলবেন, তখন এই মুহূর্ত এবং এই অভিজ্ঞতা চিরতরে সম্পন্ন হবে, এবং অ্যাপ্লিকেশনটি আর খুলবে না।\n\nএই মুহূর্তটি যাপন করার জন্য ধন্যবাদ।\n\nআপনি কি প্রস্তুত?</string>
+    <string name="farewell_dialog_positive_button">বিদায়</string>
+    <string name="farewell_dialog_negative_button">এখনও না</string>
 </resources>

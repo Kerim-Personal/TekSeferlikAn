@@ -26,4 +26,9 @@ Sadarilah dan hargai momen ini. Karena hidup dimulai di sini… saat ini juga.
     <string name="toast_error_prefix">Kesalahan:</string>
     <string name="toast_error_generic">Terjadi kesalahan.</string>
     <string name="toast_error_uri_null">ContentResolver mengembalikan URI null.</string>
+
+    <string name="farewell_dialog_title">Sebelum Mengucapkan Selamat Tinggal</string>
+    <string name="farewell_dialog_message">Ini adalah langkah terakhir. Saat Anda mengucapkan \"Selamat Tinggal\", momen dan pengalaman ini akan selesai selamanya, dan aplikasi tidak akan terbuka lagi.\n\nTerima kasih telah menjalani momen ini.\n\nApakah Anda siap?</string>
+    <string name="farewell_dialog_positive_button">Selamat Tinggal</string>
+    <string name="farewell_dialog_negative_button">Belum</string>
 </resources>

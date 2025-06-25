@@ -1,7 +1,7 @@
 <resources>
-<string name="app_name">Just A Moment</string>
+    <string name="app_name">Just A Moment</string>
 
-<string name="main_title">Just A Moment</string>
+    <string name="main_title">Just A Moment</string>
 
     <string name="main_message">
 Close your eyes for a moment.\n\n
@@ -17,20 +17,24 @@ Remember… To notice, feel, and live this moment is the most precious gift you 
 Realize it and appreciate this moment. Because life begins right here… right now.
     </string>
 
-
     <string name="farewell_button_text">Farewell</string>
-<string name="about_button_text">About</string>
+    <string name="about_button_text">About</string>
+    <string name="about_title">About Just A Moment</string>
+    <string name="about_description">This application is a simple idea created to remind you how precious every moment of life is.</string>
+    <string name="privacy_policy_text">Privacy Policy</string>
+    <string name="back_button_text">Back</string>
 
-<string name="about_title">About Just A Moment</string>
-<string name="about_description">This application is a simple idea created to remind you how precious every moment of life is.</string>
-<string name="privacy_policy_text">Privacy Policy</string>
-<string name="back_button_text">Back</string>
+    <string name="toast_already_lived">Haven\'t you lived this moment before? 😉</string>
+    <string name="toast_permission_needed">Storage permission is required for this experience.</string>
+    <string name="toast_mark_left">Mark left. Farewell!</string>
+    <string name="toast_error_prefix">Error:</string>
+    <string name="toast_error_generic">An error occurred.</string>
+    <string name="toast_error_uri_null">ContentResolver returned a null URI.</string>
 
-<string name="toast_already_lived">Haven\'t you lived this moment before? 😉</string>
-<string name="toast_permission_needed">Storage permission is required for this experience.</string>
-<string name="toast_mark_left">Mark left. Farewell!</string>
-<string name="toast_error_prefix">Error:</string>
-<string name="toast_error_generic">An error occurred.</string>
-<string name="toast_error_uri_null">ContentResolver returned a null URI.</string>
+
+    <string name="farewell_dialog_title">Before You Say Goodbye</string>
+    <string name="farewell_dialog_message">This is the final step. When you say \"Farewell,\" this moment and this experience will be complete forever, and the application will not open again.\n\nThank you for living this moment.\n\nAre you ready?</string>
+    <string name="farewell_dialog_positive_button">Farewell</string>
+    <string name="farewell_dialog_negative_button">Not Yet</string>
 
 </resources>

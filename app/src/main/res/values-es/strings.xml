@@ -26,4 +26,9 @@ Toma conciencia y valora este momento. Porque la vida empieza justo aquí… jus
     <string name="toast_error_prefix">Error:</string>
     <string name="toast_error_generic">Ocurrió un error.</string>
     <string name="toast_error_uri_null">ContentResolver devolvió un URI nulo.</string>
+
+    <string name="farewell_dialog_title">Antes de Decir Adiós</string>
+    <string name="farewell_dialog_message">Este es el último paso. Cuando digas \"Adiós\", este momento y esta experiencia se completarán para siempre, y la aplicación no se volverá a abrir.\n\nGracias por vivir este momento.\n\n¿Estás listo?</string>
+    <string name="farewell_dialog_positive_button">Adiós</string>
+    <string name="farewell_dialog_negative_button">Aún No</string>
 </resources>

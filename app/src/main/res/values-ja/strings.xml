@@ -26,4 +26,9 @@
     <string name="toast_error_prefix">エラー：</string>
     <string name="toast_error_generic">エラーが発生しました。</string>
     <string name="toast_error_uri_null">ContentResolverがnullのURIを返しました。</string>
+
+    <string name="farewell_dialog_title">さよならを言う前に</string>
+    <string name="farewell_dialog_message">これが最後の一歩です。「さようなら」と言うと、この瞬間とこの体験は永遠に完了し、アプリケーションは二度と開かなくなります。\n\nこの瞬間を生きてくれてありがとう。\n\n準備はいいですか？</string>
+    <string name="farewell_dialog_positive_button">さようなら</string>
+    <string name="farewell_dialog_negative_button">まだです</string>
 </resources>

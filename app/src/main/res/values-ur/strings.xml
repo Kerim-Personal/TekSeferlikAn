@@ -26,4 +26,9 @@
     <string name="toast_error_prefix">نقص:</string>
     <string name="toast_error_generic">ایک نقص پیش آیا۔</string>
     <string name="toast_error_uri_null">ContentResolver نے ایک null URI لوٹایا۔</string>
+
+    <string name="farewell_dialog_title">الوداع कहने से पहले</string>
+    <string name="farewell_dialog_message">یہ آخری قدم ہے۔ جب آپ \"الوداع\" کہیں گے، تو یہ لمحہ اور یہ تجربہ ہمیشہ کے لیے مکمل ہو جائے گا، اور ایپلیکیشن دوبارہ نہیں کھلے گی۔\n\nاس لمحے کو جینے کے لیے شکریہ۔\n\nکیا آپ تیار ہیں؟</string>
+    <string name="farewell_dialog_positive_button">الوداع</string>
+    <string name="farewell_dialog_negative_button">ابھی نہیں</string>
 </resources>

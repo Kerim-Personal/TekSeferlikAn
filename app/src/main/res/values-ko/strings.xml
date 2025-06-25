@@ -26,4 +26,9 @@
     <string name="toast_error_prefix">오류:</string>
     <string name="toast_error_generic">오류가 발생했습니다.</string>
     <string name="toast_error_uri_null">ContentResolver가 null URI를 반환했습니다.</string>
+
+    <string name="farewell_dialog_title">작별 인사를 하기 전에</string>
+    <string name="farewell_dialog_message">이것이 마지막 단계입니다. \"안녕\"이라고 말하면, 이 순간과 이 경험은 영원히 완료되며, 애플리케이션은 다시 열리지 않습니다.\n\n이 순간을 살아주셔서 감사합니다.\n\n준비되셨나요?</string>
+    <string name="farewell_dialog_positive_button">안녕</string>
+    <string name="farewell_dialog_negative_button">아직</string>
 </resources>

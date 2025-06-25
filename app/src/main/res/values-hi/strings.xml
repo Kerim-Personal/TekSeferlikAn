@@ -26,4 +26,9 @@
     <string name="toast_error_prefix">त्रुटि:</string>
     <string name="toast_error_generic">एक त्रुटि हुई।</string>
     <string name="toast_error_uri_null">ContentResolver ने एक शून्य URI लौटाया।</string>
+
+    <string name="farewell_dialog_title">अलविदा कहने से पहले</string>
+    <string name="farewell_dialog_message">यह अंतिम चरण है। जब आप \"अलविदा\" कहेंगे, তো यह क्षण और यह अनुभव हमेशा के लिए पूरा हो जाएगा, और एप्लिकेशन फिर से नहीं खुलेगा।\n\nइस पल को जीने के लिए धन्यवाद।\n\nक्या आप तैयार हैं?</string>
+    <string name="farewell_dialog_positive_button">अलविदा</string>
+    <string name="farewell_dialog_negative_button">अभी नहीं</string>
 </resources>

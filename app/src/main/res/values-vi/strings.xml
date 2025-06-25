@@ -26,4 +26,9 @@ Hãy nhận ra và trân trọng khoảnh khắc này. Bởi vì cuộc sống b
     <string name="toast_error_prefix">Lỗi:</string>
     <string name="toast_error_generic">Đã xảy ra lỗi.</string>
     <string name="toast_error_uri_null">ContentResolver đã trả về một URI rỗng.</string>
+
+    <string name="farewell_dialog_title">Trước Khi Nói Lời Tạm Biệt</string>
+    <string name="farewell_dialog_message">Đây là bước cuối cùng. Khi bạn nói \"Tạm biệt\", khoảnh khắc và trải nghiệm này sẽ hoàn thành mãi mãi, và ứng dụng sẽ không mở lại nữa.\n\nCảm ơn bạn đã sống trong khoảnh khắc này.\n\nBạn đã sẵn sàng chưa?</string>
+    <string name="farewell_dialog_positive_button">Tạm biệt</string>
+    <string name="farewell_dialog_negative_button">Chưa</string>
 </resources>

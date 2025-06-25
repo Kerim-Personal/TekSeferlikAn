@@ -26,4 +26,9 @@ Erkenne ihn und schätze diesen Moment. Denn das Leben beginnt genau hier… gen
     <string name="toast_error_prefix">Fehler:</string>
     <string name="toast_error_generic">Ein Fehler ist aufgetreten.</string>
     <string name="toast_error_uri_null">ContentResolver hat eine null-URI zurückgegeben.</string>
+
+    <string name="farewell_dialog_title">Bevor du Lebewohl sagst</string>
+    <string name="farewell_dialog_message">Dies ist der letzte Schritt. Wenn du \"Lebewohl\" sagst, werden dieser Moment und diese Erfahrung für immer abgeschlossen sein, und die Anwendung wird sich nicht wieder öffnen.\n\nVielen Dank, dass du diesen Moment gelebt hast.\n\nBist du bereit?</string>
+    <string name="farewell_dialog_positive_button">Lebewohl</string>
+    <string name="farewell_dialog_negative_button">Noch Nicht</string>
 </resources>

@@ -26,4 +26,9 @@ Prends-en conscience et apprécie cet instant. Car la vie commence exactement ic
     <string name="toast_error_prefix">Erreur :</string>
     <string name="toast_error_generic">Une erreur est survenue.</string>
     <string name="toast_error_uri_null">ContentResolver a renvoyé un URI nul.</string>
+
+    <string name="farewell_dialog_title">Avant de Dire Adieu</string>
+    <string name="farewell_dialog_message">C\'est la dernière étape. Lorsque vous direz \"Adieu\", ce moment et cette expérience seront terminés pour toujours, et l\'application ne s\'ouvrira plus.\n\nMerci d\'avoir vécu ce moment.\n\nÊtes-vous prêt ?</string>
+    <string name="farewell_dialog_positive_button">Adieu</string>
+    <string name="farewell_dialog_negative_button">Pas Encore</string>
 </resources>

@@ -28,4 +28,9 @@
     <string name="toast_error_prefix">Hata:</string>
     <string name="toast_error_generic">Bir hata oluştu.</string>
     <string name="toast_error_uri_null">ContentResolver null URI döndürdü.</string>
+
+    <string name="farewell_dialog_title">Veda Etmeden Önce</string>
+    <string name="farewell_dialog_message">Bu son adımdır. \"Hoşça kal\" dediğinde, bu an ve bu deneyim sonsuza dek tamamlanacak ve uygulama bir daha açılmayacak.\n\nBu anı yaşadığın için teşekkürler.\n\nHazır mısın?</string>
+    <string name="farewell_dialog_positive_button">Hoşça kal</string>
+    <string name="farewell_dialog_negative_button">Henüz Değil</string>
 </resources>

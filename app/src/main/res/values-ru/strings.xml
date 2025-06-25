@@ -26,4 +26,9 @@
     <string name="toast_error_prefix">Ошибка:</string>
     <string name="toast_error_generic">Произошла ошибка.</string>
     <string name="toast_error_uri_null">ContentResolver вернул нулевой URI.</string>
+
+    <string name="farewell_dialog_title">Прежде чем сказать Прощай</string>
+    <string name="farewell_dialog_message">Это последний шаг. Когда вы скажете \"Прощай\", этот момент и этот опыт будут завершены навсегда, и приложение больше не откроется.\n\nСпасибо, что прожили этот момент.\n\nВы готовы?</string>
+    <string name="farewell_dialog_positive_button">Прощай</string>
+    <string name="farewell_dialog_negative_button">Еще Нет</string>
 </resources>
