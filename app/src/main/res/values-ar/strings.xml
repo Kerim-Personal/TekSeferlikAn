@@ -17,8 +17,8 @@
     <string name="farewell_button_text">وداعًا</string>
     <string name="about_button_text">حول</string>
     <string name="about_title">حول مجرد لحظة</string>
-    <string name="about_description">هذا التطبيق هو فكرة بسيطة تم إنشاؤها لتذكيرك بمدى قيمة كل لحظة في الحياة. إذا استمتعت بهذه التجربة الصغيرة وترغب في دعوة المطور لفنجان قهوة، يمكنك استخدام الزر أدناه.</string>
-    <string name="donate_button_text">اشترِ لي قهوة ☕</string>
+    <string name="about_description">هذا التطبيق فكرة بسيطة تم إنشاؤها لتذكيرك بمدى قيمة كل لحظة في الحياة.</string>
+    <string name="privacy_policy_text">سياسة الخصوصية</string>
     <string name="back_button_text">رجوع</string>
     <string name="toast_already_lived">ألم تعش هذه اللحظة من قبل؟ 😉</string>
     <string name="toast_permission_needed">مطلوب إذن التخزين لهذه التجربة.</string>

@@ -17,8 +17,8 @@
     <string name="farewell_button_text">さようなら</string>
     <string name="about_button_text">概要</string>
     <string name="about_title">「ほんのひととき」について</string>
-    <string name="about_description">このアプリケーションは、人生のあらゆる瞬間がいかに貴重であるかを思い出させるために作られたシンプルなアイデアです。この小さな実験を気に入って、開発者にコーヒーを一杯おごりたいと思っていただけたなら、下のボタンをご利用ください。</string>
-    <string name="donate_button_text">コーヒーを一杯おごる ☕</string>
+    <string name="about_description">このアプリケーションは、人生のあらゆる瞬間がいかに価値のあるものであるかを思い出させるために作成されたシンプルなアイデアです。</string>
+    <string name="privacy_policy_text">プライバシーポリシー</string>
     <string name="back_button_text">戻る</string>
     <string name="toast_already_lived">この瞬間を以前に経験しませんでしたか？ 😉</string>
     <string name="toast_permission_needed">この体験にはストレージの許可が必要です。</string>

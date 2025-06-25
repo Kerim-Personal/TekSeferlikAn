@@ -17,8 +17,8 @@ Tome consciência e aprecie este momento. Porque a vida começa bem aqui… bem 
     <string name="farewell_button_text">Adeus</string>
     <string name="about_button_text">Sobre</string>
     <string name="about_title">Sobre "Apenas um Momento"</string>
-    <string name="about_description">Este aplicativo é uma ideia simples criada para lembrá-lo de quão precioso é cada momento da vida. Se você gostou deste pequeno experimento e gostaria de pagar um café para o desenvolvedor, pode usar o botão abaixo.</string>
-    <string name="donate_button_text">Pague-me um café ☕</string>
+    <string name="about_description">Este aplicativo é uma ideia simples criada para lembrar o quão valioso é cada momento da vida.</string>
+    <string name="privacy_policy_text">Política de Privacidade</string>
     <string name="back_button_text">Voltar</string>
     <string name="toast_already_lived">Você já não viveu este momento antes? 😉</string>
     <string name="toast_permission_needed">É necessária permissão de armazenamento para esta experiência.</string>

@@ -17,8 +17,8 @@
     <string name="farewell_button_text">告别</string>
     <string name="about_button_text">关于</string>
     <string name="about_title">关于“片刻”</string>
-    <string name="about_description">这个应用程序是一个简单的想法，旨在提醒你生命中每一刻的珍贵。如果你喜欢这个小实验，并想请开发者喝杯咖啡，可以使用下面的按钮。</string>
-    <string name="donate_button_text">请我喝杯咖啡 ☕</string>
+    <string name="about_description">这个应用程序是一个简单的想法，旨在提醒人们生活的每一刻是多么宝贵。</string>
+    <string name="privacy_policy_text">隐私政策</string>
     <string name="back_button_text">返回</string>
     <string name="toast_already_lived">你不是已经经历过这一刻了吗？ 😉</string>
     <string name="toast_permission_needed">此体验需要存储权限。</string>

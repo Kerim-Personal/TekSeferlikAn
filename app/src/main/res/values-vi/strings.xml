@@ -17,8 +17,8 @@ Hãy nhận ra và trân trọng khoảnh khắc này. Bởi vì cuộc sống b
     <string name="farewell_button_text">Tạm biệt</string>
     <string name="about_button_text">Giới thiệu</string>
     <string name="about_title">Về \'Chỉ một lát\'</string>
-    <string name="about_description">Ứng dụng này là một ý tưởng đơn giản được tạo ra để nhắc nhở bạn về sự quý giá của mỗi khoảnh khắc trong cuộc sống. Nếu bạn thích thử nghiệm nhỏ này và muốn mời nhà phát triển một tách cà phê, bạn có thể sử dụng nút bên dưới.</string>
-    <string name="donate_button_text">Mời tôi một ly cà phê ☕</string>
+    <string name="about_description">Ứng dụng này là một ý tưởng đơn giản được tạo ra để nhắc nhở mỗi khoảnh khắc của cuộc sống quý giá như thế nào.</string>
+    <string name="privacy_policy_text">Chính sách quyền riêng tư</string>
     <string name="back_button_text">Quay lại</string>
     <string name="toast_already_lived">Bạn chưa từng trải qua khoảnh khắc này sao? 😉</string>
     <string name="toast_permission_needed">Cần có quyền truy cập bộ nhớ cho trải nghiệm này.</string>

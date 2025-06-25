@@ -17,8 +17,8 @@ Sadarilah dan hargai momen ini. Karena hidup dimulai di sini… saat ini juga.
     <string name="farewell_button_text">Selamat Tinggal</string>
     <string name="about_button_text">Tentang</string>
     <string name="about_title">Tentang "Sesaat Saja"</string>
-    <string name="about_description">Aplikasi ini adalah ide sederhana yang dibuat untuk mengingatkan Anda betapa berharganya setiap momen dalam hidup. Jika Anda menikmati eksperimen kecil ini dan ingin membelikan secangkir kopi untuk pengembang, Anda dapat menggunakan tombol di bawah ini.</string>
-    <string name="donate_button_text">Belikan saya kopi ☕</string>
+    <string name="about_description">Aplikasi ini adalah ide sederhana yang dibuat untuk mengingatkan betapa berharganya setiap momen dalam hidup.</string>
+    <string name="privacy_policy_text">Kebijakan Privasi</string>
     <string name="back_button_text">Kembali</string>
     <string name="toast_already_lived">Bukankah Anda sudah pernah mengalami momen ini sebelumnya? 😉</string>
     <string name="toast_permission_needed">Izin penyimpanan diperlukan untuk pengalaman ini.</string>

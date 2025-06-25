@@ -17,8 +17,8 @@ Erkenne ihn und schätze diesen Moment. Denn das Leben beginnt genau hier… gen
     <string name="farewell_button_text">Lebewohl</string>
     <string name="about_button_text">Über</string>
     <string name="about_title">Über Nur ein Moment</string>
-    <string name="about_description">Diese Anwendung ist eine einfache Idee, die dich daran erinnern soll, wie kostbar jeder Moment des Lebens ist. Wenn dir dieses kleine Experiment gefallen hat und du dem Entwickler einen Kaffee spendieren möchtest, kannst du den Button unten verwenden.</string>
-    <string name="donate_button_text">Spendier mir einen Kaffee ☕</string>
+    <string name="about_description">Diese Anwendung ist eine einfache Idee, die daran erinnern soll, wie wertvoll jeder Augenblick des Lebens ist.</string>
+    <string name="privacy_policy_text">Datenschutzerklärung</string>
     <string name="back_button_text">Zurück</string>
     <string name="toast_already_lived">Hast du diesen Moment nicht schon einmal erlebt? 😉</string>
     <string name="toast_permission_needed">Für dieses Erlebnis ist eine Speicherberechtigung erforderlich.</string>

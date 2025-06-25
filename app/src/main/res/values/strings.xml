@@ -15,15 +15,15 @@ Life is not just about big events. Life is hidden in the warmth of a cup of coff
 As this application silently closes, it will leave you alone with this unique moment.\n\n
 Remember… To notice, feel, and live this moment is the most precious gift you can give yourself.\n\n
 Realize it and appreciate this moment. Because life begins right here… right now.
-</string>
+    </string>
 
 
     <string name="farewell_button_text">Farewell</string>
 <string name="about_button_text">About</string>
 
 <string name="about_title">About Just A Moment</string>
-<string name="about_description">This application is a simple idea created to remind you how precious every moment of life is. If you enjoyed this little experiment and would like to buy the developer a coffee, you can use the button below.</string>
-<string name="donate_button_text">Buy me a coffee ☕</string>
+<string name="about_description">This application is a simple idea created to remind you how precious every moment of life is.</string>
+<string name="privacy_policy_text">Privacy Policy</string>
 <string name="back_button_text">Back</string>
 
 <string name="toast_already_lived">Haven\'t you lived this moment before? 😉</string>

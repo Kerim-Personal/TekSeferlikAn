@@ -1,10 +1,10 @@
-package com.example.tekseferlikan
+package com.codenzi.tekseferlikan
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.net.toUri
 
 class AboutActivity : AppCompatActivity() {
 
@@ -12,17 +12,17 @@ class AboutActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
 
-        val donateButton: Button = findViewById(R.id.donateButton)
+        val privacypolicyButton: Button = findViewById(R.id.privacypolicyButton)
         val backButton: Button = findViewById(R.id.backButton)
 
-        donateButton.setOnClickListener {
-            // Buraya kendi bağış linkinizi ekleyebilirsiniz.
-            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/sponsors/Codenzi"))
+        privacypolicyButton.setOnClickListener {
+
+            val browserIntent = Intent(Intent.ACTION_VIEW, "https://codenzi.com".toUri())
             startActivity(browserIntent)
         }
 
         backButton.setOnClickListener {
-            finish() // Bu aktiviteyi kapatıp bir öncekine döner.
+            finish()
         }
     }
 }

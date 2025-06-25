@@ -1,4 +1,4 @@
-package com.example.tekseferlikan
+package com.codenzi.tekseferlikan
 
 import android.animation.ObjectAnimator
 import android.content.Context
@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
         val titleTextView: TextView = findViewById(R.id.titleTextView)
         val aboutButton: Button = findViewById(R.id.aboutButton)
 
-        // Title ve About butonlarının tıklama olayları
+
         var titleClickCount = 0
         var lastClickTime: Long = 0
         titleTextView.setOnClickListener {
@@ -103,19 +103,19 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // --- EN SAĞLAM ANİMASYON YÖNTEMİ ---
+
         val scrollView: ScrollView = findViewById(R.id.textScrollView)
 
-        // ScrollView'un layout'u tamamlandığında animasyonu başlat
+
         scrollView.viewTreeObserver.addOnGlobalLayoutListener(object : ViewTreeObserver.OnGlobalLayoutListener {
             override fun onGlobalLayout() {
-                // Bu listener'ı tekrar çalışmaması için hemen kaldırıyoruz.
+
                 scrollView.viewTreeObserver.removeOnGlobalLayoutListener(this)
 
                 val textView = scrollView.getChildAt(0) as TextView
                 val maxScroll = textView.height - scrollView.height
 
-                // ScrollView'un "scrollY" özelliğini 0'dan maksimum değere kadar anime et
+
                 val animator = ObjectAnimator.ofInt(scrollView, "scrollY", 0, maxScroll).apply {
                     duration = 90000
                     interpolator = LinearInterpolator()
@@ -123,7 +123,7 @@ class MainActivity : AppCompatActivity() {
                 animator.start()
             }
         })
-        // --- ANİMASYON KODU BİTİŞİ ---
+
 
         farewellButton.setOnClickListener {
             stopPlayer()

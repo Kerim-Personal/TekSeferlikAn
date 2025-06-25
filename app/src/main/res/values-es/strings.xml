@@ -17,8 +17,8 @@ Toma conciencia y valora este momento. Porque la vida empieza justo aquí… jus
     <string name="farewell_button_text">Adiós</string>
     <string name="about_button_text">Acerca de</string>
     <string name="about_title">Acerca de Solo un Momento</string>
-    <string name="about_description">Esta aplicación es una idea simple creada para recordarte lo valioso que es cada momento de la vida. Si disfrutaste este pequeño experimento y te gustaría invitarle un café al desarrollador, puedes usar el botón de abajo.</string>
-    <string name="donate_button_text">Invítame a un café ☕</string>
+    <string name="about_description">Esta aplicación es una idea sencilla creada para recordar lo valioso que es cada momento de la vida.</string>
+    <string name="privacy_policy_text">Política de Privacidad</string>
     <string name="back_button_text">Volver</string>
     <string name="toast_already_lived">¿No has vivido ya este momento? 😉</string>
     <string name="toast_permission_needed">Se requiere permiso de almacenamiento para esta experiencia.</string>

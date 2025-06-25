@@ -18,8 +18,8 @@
     <string name="about_button_text">Hakkında</string>
 
     <string name="about_title">Tek Seferlik An Hakkında</string>
-    <string name="about_description">Bu uygulama, hayatın her anının ne kadar değerli olduğunu hatırlatmak için oluşturulmuş basit bir fikirdir. Eğer bu küçük deneyi sevdiyseniz ve geliştiriciye bir kahve ısmarlamak isterseniz, aşağıdaki butonu kullanabilirsiniz.</string>
-    <string name="donate_button_text">Bir Kahve Ismarla ☕</string>
+    <string name="about_description">Bu uygulama, hayatın her anının ne kadar değerli olduğunu hatırlatmak için oluşturulmuş basit bir fikirdir.</string>
+    <string name="privacy_policy_text">Gizlilik Sözleşmesi</string>
     <string name="back_button_text">Geri Dön</string>
 
     <string name="toast_already_lived">Bu anı daha önce yaşamadın mı? 😉</string>

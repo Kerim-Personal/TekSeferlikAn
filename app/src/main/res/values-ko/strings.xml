@@ -17,8 +17,8 @@
     <string name="farewell_button_text">안녕</string>
     <string name="about_button_text">정보</string>
     <string name="about_title">\'잠시\'에 대하여</string>
-    <string name="about_description">이 애플리케이션은 삶의 모든 순간이 얼마나 소중한지 상기시키기 위해 만들어진 간단한 아이디어입니다. 이 작은 실험이 마음에 드셨고 개발자에게 커피 한 잔을 사주고 싶으시다면 아래 버튼을 이용해 주세요.</string>
-    <string name="donate_button_text">커피 한 잔 사주기 ☕</string>
+    <string name="about_description">이 응용 프로그램은 삶의 모든 순간이 얼마나 소중한지를 상기시키기 위해 만들어진 간단한 아이디어입니다.</string>
+    <string name="privacy_policy_text">개인정보 처리방침</string>
     <string name="back_button_text">뒤로</string>
     <string name="toast_already_lived">이 순간을 전에 경험하지 않으셨나요? 😉</string>
     <string name="toast_permission_needed">이 경험을 위해서는 저장소 권한이 필요합니다.</string>
