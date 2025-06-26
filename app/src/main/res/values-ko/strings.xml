@@ -21,7 +21,6 @@
     <string name="privacy_policy_text">개인정보 처리방침</string>
     <string name="back_button_text">뒤로</string>
     <string name="toast_already_lived">이 순간을 전에 경험하지 않으셨나요? 😉</string>
-    <string name="toast_permission_needed">이 경험을 위해서는 저장소 권한이 필요합니다.</string>
     <string name="toast_mark_left">마크를 남겼습니다. 안녕!</string>
     <string name="toast_error_prefix">오류:</string>
     <string name="toast_error_generic">오류가 발생했습니다.</string>

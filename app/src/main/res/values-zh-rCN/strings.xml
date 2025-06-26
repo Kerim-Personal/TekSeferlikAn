@@ -21,7 +21,6 @@
     <string name="privacy_policy_text">隐私政策</string>
     <string name="back_button_text">返回</string>
     <string name="toast_already_lived">你不是已经经历过这一刻了吗？ 😉</string>
-    <string name="toast_permission_needed">此体验需要存储权限。</string>
     <string name="toast_mark_left">已留下标记。告别！</string>
     <string name="toast_error_prefix">错误：</string>
     <string name="toast_error_generic">发生了一个错误。</string>

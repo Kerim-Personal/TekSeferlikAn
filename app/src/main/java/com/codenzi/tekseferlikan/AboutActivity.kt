@@ -17,7 +17,7 @@ class AboutActivity : AppCompatActivity() {
 
         privacypolicyButton.setOnClickListener {
 
-            val browserIntent = Intent(Intent.ACTION_VIEW, "https://codenzi.com".toUri())
+            val browserIntent = Intent(Intent.ACTION_VIEW, "https://www.codenzi.com/privacy-smart-archive.html".toUri())
             startActivity(browserIntent)
         }
 

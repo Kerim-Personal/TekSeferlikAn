@@ -9,7 +9,7 @@ Take a deep breath.\n\n
 Feel the air filling your lungs…\n\n
 This is life itself. Not the weight of the past, nor the uncertainty of the future… There is only now. This moment is a unique gift that will never come back.\n\n
 The past is now just a memory. The future is a possibility not yet written. The only reality you have is right now. Do you hear your heart beating? That rhythm is the sound of your existence. Each beat is like a silent thank you that life offers you.\n\n
-Think about it… The feelings you have right now, the thoughts passing through your mind, the sounds, smells, and lights around you... They all come together to weave this moment for you. Notice it. Live it. Honor it. Because this moment, chosen from billions of possibilities, has said "hello" only to you.\n\n
+Think about it… The feelings you have right now, the thoughts passing through your mind, the sounds, smells, and lights around you… They all come together to weave this moment for you. Notice it. Live it. Honor it. Because this moment, chosen from billions of possibilities, has said "hello" only to you.\n\n
 Put your worries aside. Let go of the regrets of the past. Just be. Feel the miracle of your existence. Just like a snowflake, this moment is unique, special, and fleeting. It will soon melt away and will never exist in the same way again.\n\n
 Life is not just about big events. Life is hidden in the warmth of a cup of coffee, in a friend\'s smile, in the touch of a melody on your heart, in the caress of the wind on your cheek. The meaning is hidden in those small details.\n\n
 As this application silently closes, it will leave you alone with this unique moment.\n\n
@@ -23,15 +23,11 @@ Realize it and appreciate this moment. Because life begins right here… right n
     <string name="about_description">This application is a simple idea created to remind you how precious every moment of life is.</string>
     <string name="privacy_policy_text">Privacy Policy</string>
     <string name="back_button_text">Back</string>
-
     <string name="toast_already_lived">Haven\'t you lived this moment before? 😉</string>
-    <string name="toast_permission_needed">Storage permission is required for this experience.</string>
     <string name="toast_mark_left">Mark left. Farewell!</string>
     <string name="toast_error_prefix">Error:</string>
     <string name="toast_error_generic">An error occurred.</string>
     <string name="toast_error_uri_null">ContentResolver returned a null URI.</string>
-
-
     <string name="farewell_dialog_title">Before You Say Goodbye</string>
     <string name="farewell_dialog_message">This is the final step. When you say \"Farewell,\" this moment and this experience will be complete forever, and the application will not open again.\n\nThank you for living this moment.\n\nAre you ready?</string>
     <string name="farewell_dialog_positive_button">Farewell</string>

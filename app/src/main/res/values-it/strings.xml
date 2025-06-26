@@ -7,7 +7,7 @@ Fai un respiro profondo.\n\n
 Senti l\'aria che riempie i tuoi polmoni…\n\n
 Questa è la vita stessa. Non il peso del passato, né l\'incertezza del futuro… C\'è solo l\'adesso. Questo momento è un dono unico che non tornerà mai più.\n\n
 Il passato è ormai solo un ricordo. Il futuro è una possibilità non ancora scritta. L\'unica realtà che hai è proprio ora. Senti il tuo cuore battere? Quel ritmo è il suono della tua esistenza. Ogni battito è come un silenzioso ringraziamento che la vita ti offre.\n\n
-Pensaci… Le sensazioni che provi in questo momento, i pensieri che ti passano per la mente, i suoni, gli odori, le luci intorno a te... Tutti si uniscono per tessere questo momento per te. Accorgitene. Vivilo. Onoralo. Perché questo momento, scelto tra miliardi di possibilità, ha detto "ciao" solo a te.\n\n
+Pensaci… Le sensazioni che provi in questo momento, i pensieri che ti passano per la mente, i suoni, gli odori, le luci intorno a te… Tutti si uniscono per tessere questo momento per te. Accorgitene. Vivilo. Onoralo. Perché questo momento, scelto tra miliardi di possibilità, ha detto "ciao" solo a te.\n\n
 Metti da parte le tue preoccupazioni. Lascia andare i rimpianti del passato. Semplicemente, esisti. Senti il miracolo della tua esistenza. Proprio come un fiocco di neve, questo momento è unico, speciale e fugace. Presto si scioglierà e non esisterà mai più allo stesso modo.\n\n
 La vita non è fatta solo di grandi eventi. La vita è nascosta nel calore di una tazza di caffè, nel sorriso di un amico, nel tocco di una melodia sul tuo cuore, nella carezza del vento sulla tua guancia. Il significato è nascosto in quei piccoli dettagli.\n\n
 Mentre questa applicazione si chiude silenziosamente, ti lascerà solo con questo momento unico.\n\n
@@ -21,7 +21,6 @@ Renditene conto e apprezza questo momento. Perché la vita inizia proprio qui…
     <string name="privacy_policy_text">Informativa sulla privacy</string>
     <string name="back_button_text">Indietro</string>
     <string name="toast_already_lived">Non hai già vissuto questo momento? 😉</string>
-    <string name="toast_permission_needed">È necessaria l\'autorizzazione di archiviazione per questa esperienza.</string>
     <string name="toast_mark_left">Marchio lasciato. Addio!</string>
     <string name="toast_error_prefix">Errore:</string>
     <string name="toast_error_generic">Si è verificato un errore.</string>

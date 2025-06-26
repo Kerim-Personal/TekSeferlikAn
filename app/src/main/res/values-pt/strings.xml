@@ -7,7 +7,7 @@ Respire fundo.\n\n
 Sinta o ar enchendo seus pulmões…\n\n
 Isto é a própria vida. Nem o peso do passado, nem a incerteza do futuro… Só existe o agora. Este momento é um presente único que nunca mais voltará.\n\n
 O passado é agora apenas uma memória. O futuro é uma possibilidade ainda não escrita. A única realidade que você tem é o agora. Você ouve seu coração bater? Esse ritmo é o som da sua existência. Cada batida é como um silencioso obrigado que a vida lhe oferece.\n\n
-Pense nisso… Os sentimentos que você tem agora, os pensamentos que passam pela sua mente, os sons, os cheiros, as luzes ao seu redor... Tudo se junta para tecer este momento para você. Perceba-o. Viva-o. Honre-o. Porque este momento, escolhido entre bilhões de possibilidades, disse "olá" apenas para você.\n\n
+Pense nisso… Os sentimentos que você tem agora, os pensamentos que passam pela sua mente, os sons, os cheiros, as luzes ao seu redor… Tudo se junta para tecer este momento para você. Perceba-o. Viva-o. Honre-o. Porque este momento, escolhido entre bilhões de possibilidades, disse "olá" apenas para você.\n\n
 Deixe suas preocupações de lado. Liberte-se dos arrependimentos do passado. Apenas seja. Sinta o milagre da sua existência. Assim como um floco de neve, este momento é único, especial e passageiro. Em breve ele vai derreter e nunca mais existirá da mesma forma.\n\n
 A vida não é feita apenas de grandes eventos. A vida está escondida no calor de uma xícara de café, no sorriso de um amigo, no toque de uma melodia em seu coração, na carícia do vento em sua bochecha. O significado está escondido nesses pequenos detalhes.\n\n
 Enquanto esta aplicação se fecha silenciosamente, ela o deixará a sós com este momento único.\n\n
@@ -21,7 +21,6 @@ Tome consciência e aprecie este momento. Porque a vida começa bem aqui… bem 
     <string name="privacy_policy_text">Política de Privacidade</string>
     <string name="back_button_text">Voltar</string>
     <string name="toast_already_lived">Você já não viveu este momento antes? 😉</string>
-    <string name="toast_permission_needed">É necessária permissão de armazenamento para esta experiência.</string>
     <string name="toast_mark_left">Marca deixada. Adeus!</string>
     <string name="toast_error_prefix">Erro:</string>
     <string name="toast_error_generic">Ocorreu um erro.</string>

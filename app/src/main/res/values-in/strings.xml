@@ -7,7 +7,7 @@ Tarik napas dalam-dalam.\n\n
 Rasakan udara memenuhi paru-parumu…\n\n
 Inilah hidup itu sendiri. Bukan beban masa lalu, bukan pula ketidakpastian masa depan… Yang ada hanyalah sekarang. Momen ini adalah hadiah unik yang tidak akan pernah kembali lagi.\n\n
 Masa lalu kini hanyalah kenangan. Masa depan adalah kemungkinan yang belum tertulis. Satu-satunya kenyataan yang kamu miliki adalah saat ini. Apakah kamu mendengar detak jantungmu? Ritme itu adalah suara keberadaanmu. Setiap detaknya seperti ucapan terima kasih tanpa suara yang ditawarkan kehidupan kepadamu.\n\n
-Pikirkanlah… Perasaan yang kamu rasakan saat ini, pikiran yang melintas di benakmu, suara, aroma, dan cahaya di sekitarmu... Semuanya menyatu untuk merajut momen ini untukmu. Sadarilah. Jalanilah. Hormatilah. Karena momen ini, yang terpilih dari miliaran kemungkinan, hanya menyapa "halo" kepadamu.\n\n
+Pikirkanlah… Perasaan yang kamu rasakan saat ini, pikiran yang melintas di benakmu, suara, aroma, dan cahaya di sekitarmu… Semuanya menyatu untuk merajut momen ini untukmu. Sadarilah. Jalanilah. Hormatilah. Karena momen ini, yang terpilih dari miliaran kemungkinan, hanya menyapa "halo" kepadamu.\n\n
 Kesampingkan kekhawatiranmu. Lepaskan penyesalan masa lalu. Cukup ada. Rasakan keajaiban keberadaanmu. Sama seperti kepingan salju, momen ini unik, istimewa, dan fana. Ia akan segera meleleh dan tidak akan pernah ada lagi dengan cara yang sama.\n\n
 Hidup bukan hanya tentang peristiwa-peristiwa besar. Hidup tersembunyi dalam kehangatan secangkir kopi, dalam senyuman seorang teman, dalam sentuhan melodi di hatimu, dalam belaian angin di pipimu. Makna tersembunyi dalam detail-detail kecil itu.\n\n
 Saat aplikasi ini ditutup secara diam-diam, ia akan meninggalkanmu sendirian dengan momen unik ini.\n\n
@@ -21,7 +21,6 @@ Sadarilah dan hargai momen ini. Karena hidup dimulai di sini… saat ini juga.
     <string name="privacy_policy_text">Kebijakan Privasi</string>
     <string name="back_button_text">Kembali</string>
     <string name="toast_already_lived">Bukankah Anda sudah pernah mengalami momen ini sebelumnya? 😉</string>
-    <string name="toast_permission_needed">Izin penyimpanan diperlukan untuk pengalaman ini.</string>
     <string name="toast_mark_left">Tanda ditinggalkan. Selamat tinggal!</string>
     <string name="toast_error_prefix">Kesalahan:</string>
     <string name="toast_error_generic">Terjadi kesalahan.</string>

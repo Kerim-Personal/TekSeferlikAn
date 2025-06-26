@@ -46,7 +46,8 @@
             android:lineSpacingExtra="8sp"
             android:text="@string/main_message"
             android:textColor="@android:color/white"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="VisualLintLongText" />
 
     </ScrollView>
 

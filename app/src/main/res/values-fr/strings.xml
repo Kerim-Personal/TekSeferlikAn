@@ -7,7 +7,7 @@ Prends une profonde inspiration.\n\n
 Sens l\'air emplir tes poumons…\n\n
 C\'est la vie elle-même. Ni le poids du passé, ni l\'incertitude de l\'avenir… Il n\'y a que le présent. Cet instant est un cadeau unique qui ne reviendra jamais.\n\n
 Le passé n\'est plus qu\'un souvenir. Le futur est une possibilité qui n\'a pas encore été écrite. La seule réalité que tu possèdes, c\'est l\'instant présent. Entends-tu ton cœur battre ? Ce rythme est le son de ton existence. Chaque battement est comme un merci silencieux que la vie t\'offre.\n\n
-Pense-y… Ce que tu ressens en ce moment, les pensées qui traversent ton esprit, les sons, les odeurs, les lumières autour de toi... Tout cela s\'unit pour tisser cet instant pour toi. Remarque-le. Vis-le. Honore-le. Parce que cet instant, choisi parmi des milliards de possibilités, n\'a dit "bonjour" qu\'à toi.\n\n
+Pense-y… Ce que tu ressens en ce moment, les pensées qui traversent ton esprit, les sons, les odeurs, les lumières autour de toi… Tout cela s\'unit pour tisser cet instant pour toi. Remarque-le. Vis-le. Honore-le. Parce que cet instant, choisi parmi des milliards de possibilités, n\'a dit "bonjour" qu\'à toi.\n\n
 Laisse tes soucis de côté. Libère-toi des regrets du passé. Sois simplement. Ressens le miracle de ton existence. Tout comme un flocon de neige, cet instant est unique, spécial et éphémère. Il fondra bientôt et n\'existera plus jamais de la même manière.\n\n
 La vie ne se résume pas à de grands événements. La vie se cache dans la chaleur d\'une tasse de café, dans le sourire d\'un ami, dans la caresse d\'une mélodie sur ton cœur, dans le souffle du vent sur ta joue. Le sens est caché dans ces petits détails.\n\n
 Alors que cette application se fermera en silence, elle te laissera seul avec cet instant unique.\n\n
@@ -21,7 +21,6 @@ Prends-en conscience et apprécie cet instant. Car la vie commence exactement ic
     <string name="privacy_policy_text">Politique de confidentialité</string>
     <string name="back_button_text">Retour</string>
     <string name="toast_already_lived">N\'avez-vous pas déjà vécu ce moment ? 😉</string>
-    <string name="toast_permission_needed">L\'autorisation de stockage est requise pour cette expérience.</string>
     <string name="toast_mark_left">Marque laissée. Adieu !</string>
     <string name="toast_error_prefix">Erreur :</string>
     <string name="toast_error_generic">Une erreur est survenue.</string>

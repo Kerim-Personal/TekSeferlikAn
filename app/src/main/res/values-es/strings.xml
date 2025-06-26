@@ -7,7 +7,7 @@ Respira hondo.\n\n
 Siente el aire llenando tus pulmones…\n\n
 Esto es la vida misma. Ni el peso del pasado, ni la incertidumbre del futuro… Solo existe el ahora. Este momento es un regalo único que nunca volverá.\n\n
 El pasado es ahora solo un recuerdo. El futuro es una posibilidad aún no escrita. La única realidad que tienes es este preciso instante. ¿Oyes latir tu corazón? Ese ritmo es el sonido de tu existencia. Cada latido es como un silencioso agradecimiento que la vida te ofrece.\n\n
-Piénsalo… Lo que sientes ahora mismo, los pensamientos que cruzan tu mente, los sonidos, los olores, las luces a tu alrededor... Todo se une para tejer este momento para ti. Date cuenta. Vívelo. Hónralo. Porque este momento, elegido entre miles de millones de posibilidades, te ha dicho "hola" solo a ti.\n\n
+Piénsalo… Lo que sientes ahora mismo, los pensamientos que cruzan tu mente, los sonidos, los olores, las luces a tu alrededor… Todo se une para tejer este momento para ti. Date cuenta. Vívelo. Hónralo. Porque este momento, elegido entre miles de millones de posibilidades, te ha dicho "hola" solo a ti.\n\n
 Deja a un lado tus preocupaciones. Suelta los remordimientos del pasado. Simplemente, sé. Siente el milagro de tu existencia. Al igual que un copo de nieve, este momento es único, especial y efímero. Pronto se derretirá y nunca volverá a existir de la misma manera.\n\n
 La vida no consiste solo en grandes acontecimientos. La vida se esconde en el calor de una taza de café, en la sonrisa de un amigo, en el toque de una melodía en tu corazón, en la caricia del viento en tu mejilla. El significado está oculto en esos pequeños detalles.\n\n
 Mientras esta aplicación se cierra silenciosamente, te dejará a solas con este momento único.\n\n
@@ -21,7 +21,6 @@ Toma conciencia y valora este momento. Porque la vida empieza justo aquí… jus
     <string name="privacy_policy_text">Política de Privacidad</string>
     <string name="back_button_text">Volver</string>
     <string name="toast_already_lived">¿No has vivido ya este momento? 😉</string>
-    <string name="toast_permission_needed">Se requiere permiso de almacenamiento para esta experiencia.</string>
     <string name="toast_mark_left">Marca dejada. ¡Adiós!</string>
     <string name="toast_error_prefix">Error:</string>
     <string name="toast_error_generic">Ocurrió un error.</string>

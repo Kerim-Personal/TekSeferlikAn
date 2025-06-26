@@ -7,7 +7,7 @@ Atme tief ein.\n\n
 Spüre, wie die Luft deine Lungen füllt…\n\n
 Das ist das Leben selbst. Nicht die Last der Vergangenheit, nicht die Unsicherheit der Zukunft… Es gibt nur das Jetzt. Dieser Moment ist ein einzigartiges Geschenk, das niemals zurückkehren wird.\n\n
 Die Vergangenheit ist jetzt nur noch eine Erinnerung. Die Zukunft ist eine noch ungeschriebene Möglichkeit. Die einzige Realität, die du hast, ist genau jetzt. Hörst du dein Herz schlagen? Dieser Rhythmus ist der Klang deiner Existenz. Jeder Schlag ist wie ein stiller Dank, den das Leben dir schenkt.\n\n
-Denk darüber nach… Was du gerade fühlst, die Gedanken, die dir durch den Kopf gehen, die Geräusche, Gerüche, Lichter um dich herum... All das kommt zusammen, um diesen Moment für dich zu weben. Nimm ihn wahr. Lebe ihn. Ehre ihn. Denn dieser Moment, ausgewählt aus Milliarden von Möglichkeiten, hat nur zu dir „Hallo“ gesagt.\n\n
+Denk darüber nach… Was du gerade fühlst, die Gedanken, die dir durch den Kopf gehen, die Geräusche, Gerüche, Lichter um dich herum… All das kommt zusammen, um diesen Moment für dich zu weben. Nimm ihn wahr. Lebe ihn. Ehre ihn. Denn dieser Moment, ausgewählt aus Milliarden von Möglichkeiten, hat nur zu dir „Hallo“ gesagt.\n\n
 Lass deine Sorgen beiseite. Lass die Reue der Vergangenheit los. Sei einfach. Spüre das Wunder deiner Existenz. Genau wie eine Schneeflocke ist dieser Moment einzigartig, besonders und vergänglich. Er wird bald schmelzen und nie wieder auf dieselbe Weise existieren.\n\n
 Das Leben besteht nicht nur aus großen Ereignissen. Das Leben verbirgt sich in der Wärme einer Tasse Kaffee, im Lächeln eines Freundes, in der Berührung einer Melodie auf deinem Herzen, im Streicheln des Windes auf deiner Wange. Die Bedeutung liegt in diesen kleinen Details verborgen.\n\n
 Während diese Anwendung leise schließt, wird sie dich mit diesem einzigartigen Moment allein lassen.\n\n
@@ -21,7 +21,6 @@ Erkenne ihn und schätze diesen Moment. Denn das Leben beginnt genau hier… gen
     <string name="privacy_policy_text">Datenschutzerklärung</string>
     <string name="back_button_text">Zurück</string>
     <string name="toast_already_lived">Hast du diesen Moment nicht schon einmal erlebt? 😉</string>
-    <string name="toast_permission_needed">Für dieses Erlebnis ist eine Speicherberechtigung erforderlich.</string>
     <string name="toast_mark_left">Markierung hinterlassen. Lebewohl!</string>
     <string name="toast_error_prefix">Fehler:</string>
     <string name="toast_error_generic">Ein Fehler ist aufgetreten.</string>
